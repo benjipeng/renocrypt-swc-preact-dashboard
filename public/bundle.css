@@ -1,0 +1,13 @@
+/* node_modules/tailwindcss/base.css */
+@tailwind base;
+
+/* node_modules/tailwindcss/components.css */
+@tailwind components;
+
+/* node_modules/tailwindcss/utilities.css */
+@tailwind utilities;
+
+/* src/styles/index.css */
+body {
+  font-family: "Arial", sans-serif;
+}

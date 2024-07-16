@@ -1,0 +1,15 @@
+{
+    "jsc": {
+      "parser": {
+        "syntax": "typescript",
+        "tsx": true
+      },
+      "transform": {
+        "react": {
+          "pragma": "h",
+          "pragmaFrag": "Fragment"
+        }
+      },
+      "target": "es2020"
+    }
+  }
