@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "swc src -d dist --config-file .swcrc && tailwindcss -i ./src/styles/index.css -o ./dist/styles/index.css",
+    "build": "swc src -d doc --config-file .swcrc && tailwindcss -i ./src/styles/index.css -o ./dist/styles/index.css",
     "dev": "node server.js",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json}"
